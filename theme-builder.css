@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff;
+    color: #333;
+  }
+  
+  .theme-hero {
+    background: linear-gradient(135deg, #00b09b, #96c93d);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .theme-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .theme-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 50px 30px;
+  }
+  
+  .theme-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s ease;
+  }
+  
+  .theme-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .theme-card img {
+    width: 65px;
+    margin-bottom: 15px;
+  }
+  
+  .theme-card h3 {
+    color: #00b09b;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #f2f2f2;
+  }
