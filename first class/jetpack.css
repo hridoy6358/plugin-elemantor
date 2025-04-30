@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5fff9;
+  }
+  
+  .jet-header {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .jet-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .jet-img img {
+    width: 90px;
+  }
+  
+  .jet-desc ul {
+    padding-left: 20px;
+  }

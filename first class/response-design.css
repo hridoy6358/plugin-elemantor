@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  .responsive-hero {
+    background: linear-gradient(135deg, #ee0979, #ff6a00);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+  }
+  
+  .responsive-hero h1 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .device-previews {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+    padding: 50px 30px;
+  }
+  
+  .device-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+    transition: all 0.3s ease;
+  }
+  
+  .device-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .device-card img {
+    width: 70px;
+    margin-bottom: 15px;
+  }
+  
+  .device-card h3 {
+    color: #ee0979;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+  }

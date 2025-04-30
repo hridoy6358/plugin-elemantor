@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #fef9f9;
+    color: #333;
+  }
+  
+  .woo-header {
+    background-color: #9658b4;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .woo-content {
+    display: flex;
+    justify-content: center;
+    padding: 60px 100px;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .woo-img img {
+    width: 100px;
+  }
+  
+  .woo-info h2 {
+    font-size: 26px;
+  }
+  
+  .woo-info ul {
+    padding-left: 20px;
+  }

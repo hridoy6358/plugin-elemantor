@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f7faff;
+    color: #333;
+  }
+  
+  .yoast-header {
+    background: #8247e5;
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .yoast-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .yoast-header p {
+    font-size: 18px;
+    opacity: 0.9;
+  }
+  
+  .yoast-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 100px;
+    flex-wrap: wrap;
+  }
+  
+  .yoast-image img {
+    width: 100px;
+  }
+  
+  .yoast-description h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .yoast-description ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .yoast-description li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
